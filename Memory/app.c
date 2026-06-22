@@ -11,8 +11,7 @@ int main() {
     int c = 0;
     char kk = stringArray[n][c];
 
-        while (stringArray[n][c] != '\0') {
-            printf("%i\n",stringArray[n][c]);
+        while (stringArray[n] != '\0') {
             while (stringArray[n][c] != '\0') {
                 k++;
                 c++;
