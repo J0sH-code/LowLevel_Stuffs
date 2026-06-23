@@ -4,4 +4,5 @@ project(LowLevel_Stuffs C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(LowLevel_Stuffs
-        Memory/app.c)
+        Memory/app.c
+        Memory/2dArray.c)
